@@ -795,6 +795,7 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  min-height: 140px;
 }
 
 .work-content .w-more {
