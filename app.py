@@ -70,11 +70,12 @@ def index():
             session['subject'] = form.subject.data
             session['message'] = form.message.data
 
-            flash('Thank you for submiting the form.')
+            #flash('Thank you for submiting the form.')
 
             form_insert = FormData(form.name.data,form.email.data,form.subject.data,form.message.data)
             db.session.add(form_insert)
             db.session.commit()
+            flash('Thank you for submiting the form.')
 
             return redirect(url_for('index'))
 
