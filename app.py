@@ -12,8 +12,8 @@ app.config['SECRET_KEY'] = '3315'
 
 #recaptcha
 app.config['RECAPTCHA_USE_SSL']= False
-app.config['RECAPTCHA_PUBLIC_KEY']='6LcQpbgUAAAAAAhL25ROP6hO-pB6w35jUkQyES0w'
-app.config['RECAPTCHA_PRIVATE_KEY']='6LcQpbgUAAAAAD0bhcWAe3Rw91ncenS-3Kgp2Kgk'
+app.config['RECAPTCHA_PUBLIC_KEY']=''
+app.config['RECAPTCHA_PRIVATE_KEY']=''
 app.config['RECAPTCHA_OPTIONS']= {'theme':'black'}
 
 ############################################
